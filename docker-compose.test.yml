@@ -10,4 +10,7 @@ services:
     command: python -m pytest --cov="."
     volumes:
       - ./:/usr/src/app/
+    environment: 
+      - DB_URL=postgres://postgres:postgres@postgres:5432/guane_intern_db
+   
        

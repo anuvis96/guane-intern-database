@@ -10,12 +10,15 @@ uvicorn = "*"
 pydantic = "*"
 tortoise = "*"
 tortoise-orm = "*"
-
+pytest = "*"
+requests = "*"
+celery = "*"
 
 [dev-packages]
 asynctest = "*"
 pytest = "*"
 pytest-cov = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
