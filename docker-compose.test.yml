@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  doggys-db-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: doggys_db_service
+    container_name: doggys_db_service_container
+    command: python -m pytest --cov="."
+    volumes:
+      - ./:/usr/src/app/
+       

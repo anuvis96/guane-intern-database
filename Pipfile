@@ -11,7 +11,11 @@ pydantic = "*"
 tortoise = "*"
 tortoise-orm = "*"
 
+
 [dev-packages]
+asynctest = "*"
+pytest = "*"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.8"

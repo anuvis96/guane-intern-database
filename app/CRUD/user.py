@@ -37,3 +37,5 @@ async def delete_users_by_id(id: int):
     if not user:
         raise "El User con este Id no se encuentra."
     return f"El User con el Id {id} se borro exitosamente."
+
+
